@@ -1,0 +1,1 @@
+var myCodeMirror = CodeMirror.fromTextArea(snippetContent);

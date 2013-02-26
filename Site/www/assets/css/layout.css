@@ -1,0 +1,383 @@
+/* apply a natural box layout model to all elements */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+img {
+	vertical-align: middle;
+}
+
+/** =layout general **/
+
+html, body {
+	height:100%;
+}
+
+body {
+	max-width:1200px;
+}
+
+.sidebar, .main {
+	padding:10px;
+}
+
+.sidebar {
+	position:fixed;
+	top:0;
+	bottom:0;
+	width:300px;
+	overflow:auto;
+	/*min-height: 100%;*/
+}
+
+.main {
+	margin-left:300px;
+}
+
+/*** générique ***/
+
+.button {
+	display: inline-block;
+	padding: 6px;
+	/*margin:10px 0;*/
+	vertical-align: middle;
+	border : none;
+}
+
+/* formulaires */
+
+
+input[type=text],
+input[type=password],
+input[type=email],
+textarea {
+	border-style : solid;
+	border-width: 1px;
+	padding:4px;
+	width:200px;
+}
+
+select {
+	width:200px;
+}
+
+textarea {
+	min-width: 404px;
+	min-height: 150px;
+	resize: vertical;
+}
+
+
+/*** logo ***/
+
+.sidebar .sidebar-wrapper {
+	position:relative;
+	min-height: 100%;
+}
+
+.sidebar-content {
+	padding-bottom:100px;
+}
+.sidebar footer {
+	position: absolute;
+	bottom: 0;
+	height: 100px;
+	left:0;
+	right:0;
+}
+
+.sidebar footer > p {
+	position:absolute;
+	bottom: 0;
+}
+
+
+.sidebar .sidebar-content > header {
+	float:left;
+	margin-right:10px;
+	height:39px;
+	line-height:39px;
+	
+}
+
+.sidebar .sidebar-content > header h1 {
+	height:24px;
+	height:100%;
+	margin: 0;
+	overflow: hidden;
+	width:87px;
+	display:inline-block;
+	vertical-align:middle;
+	position: relative;
+}
+
+.sidebar .sidebar-content > header h1 a {
+	display: block;
+	height: 100%;
+}
+
+.sidebar .sidebar-content > header h1 img {
+	position:absolute;
+	clip:rect(0px, 87px, 24px, 0);
+	top:0;
+	left:0;
+}
+
+
+/** user-account */
+
+.user-account,
+.sidebar .connexion {
+	margin-bottom: 20px;
+	margin-left: 97px;
+	text-align: center;
+}
+
+.user-account {
+	position: relative;
+}
+
+.user-account img {
+	float:left;
+}
+
+.user-account .user-account-options,
+.user-account .user-account-name {
+	display: block;
+	margin-left: 49px;
+}
+
+.user-account .user-account-options {
+	/*padding: 2px;*/
+	text-decoration: none;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	/*display: block;*/
+}
+
+.user-account .user-account-options .button {
+	display: block;
+	margin: 0;
+	padding :1px;
+	position: relative;
+	z-index:6;
+}
+
+.user-account .user-account-options .button:before {
+	content:"+";
+	margin-right: 2px;
+}
+
+.user-account .user-account-options ul {
+	padding:0;
+	margin:0 4px;
+	list-style: none;
+	border-radius : 0 0 4px 4px;
+	position: absolute;
+	left: -99999px;
+	z-index: 2;
+}
+
+.user-account .user-account-options ul li {
+	padding: 2px 0;
+}
+
+.user-account .user-account-options:hover ul,
+.user-account .user-account-options:target ul {
+	left:4px;
+	right:4px;
+}
+
+
+.user-account:after {
+	content:"";
+   	display: table;
+   	clear:both;
+}
+
+/** =SEARCH **/
+
+.search {
+	height: 40px;
+	border-radius : 4px;
+	display: inline-block;
+	text-align: center;
+}
+
+.search form {
+	height: 100%;
+	border-radius: inherit;
+	display: inline-block;
+}
+
+.search input[type=search]{
+	height:100%;
+	width:220px;
+	border: none;
+	border-radius: inherit;
+	padding: 0 4px 0 4px;
+	margin: 0;
+}
+
+.search input[type=submit] {
+	width: 40px;
+	height:100%;
+	padding:0 ;
+	margin:0;
+	border: none;
+	position:relative;
+	left:2px;
+}
+
+
+/** ASIDE CONTENT */
+
+
+.sidebar aside {
+	clear:both;
+	padding: 1px ; /* pour lutter contre la fusion des marges (c'est la luuuutte finale) */
+}
+
+/* welcome page */
+
+.welcome .sidebar aside {
+	margin-top:
+}
+.sidebar .project-link,
+.sidebar .project-rss-link,
+.sidebar .forum-link  {
+	display: block;
+	/*padding: 6px;*/
+	margin:10px 0;
+}
+
+
+.snippets-list {
+	margin-top: 30px;
+}
+
+.snippets-list ul {
+	padding-left:0;
+	margin: 0;
+}
+
+
+/** =MAIN */
+
+/* welcome page */
+
+
+
+/** 1 SNIPPET */
+
+.main .snippet > h1,
+/*.main .snippet .snippet-actions,*/
+.main .snippet .snippet-actions .download,
+.main .snippet .snippet-actions .report,
+.main .snippet .snippet-author,
+.main .snippet .snippet-date {
+	display: inline-block;
+	/*display: inline;*/
+	vertical-align: middle;
+}
+
+.main .snippet .snippet-actions {
+	display: inline;
+	margin-left: 10px;
+	
+}
+
+.main .snippet .snippet-actions .download,
+.main .snippet .snippet-actions .report {
+	margin-left: 10px;
+}
+
+
+.main .snippet .snippet-actions .download,
+.main .snippet .snippet-actions .report {
+	border-radius: 4px;
+	text-decoration: none;
+	padding: 6px;
+}
+
+.main .snippet .snippet-actions:after {
+	content: "\A";
+	white-space: pre;
+}
+
+.main .snippet .snippet-author a {
+	text-decoration: none;
+}
+
+.main .snippet .snippet-tags {
+	margin-top: 10px;
+}
+
+.main .snippet .snippet-tag {
+	padding: 4px 4px 4px 4px;
+}
+
+.main .snippet .snippet-tag:before {
+	content: '';
+	height: 16px;
+	width:16px;
+	display:inline-block;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+
+/** =COMMENTS **/
+
+.main .snippet .comments li {
+	clear: both;
+}
+
+.main .snippet .comments .comment-author {
+	/*float:left;*/
+}
+
+.main .snippet .comments .comment-author,
+.main .snippet .comments .comment-date {
+	/*display: inline-block;*/
+	/*vertical-align: top;*/
+	/*float:left;*/
+}
+
+.main .snippet .comments .comment-author img {
+	float:left;
+	margin-right: 10px;
+}
+
+
+.main .snippet .comments .comment-author a {
+	text-decoration: none;
+}
+
+.main .snippet .comments .comment-content p {
+	margin: .5em 0 .5em 0;
+}
+
+/** =CONNEXION **/
+
+body.connexion .connexion-wrap {
+	width:600px;
+}
+
+body.connexion form {
+	overflow: hidden;
+}
+
+body.connexion input[type=text],
+body.connexion input[type=password],
+body.connexion input[type=email]{
+	/*float:right;*/
+	/*margin-right: 10px;
+	border-style : solid;
+	border-width: 1px;
+	padding:4px;*/
+}
+
+body.connexion input[type=submit]{
+	/*float:right;*/
+	/*margin-right: 10px;*/
+}

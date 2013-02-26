@@ -1,0 +1,1 @@
+<!-- <a href="snippet/add" class="button">Créer un snippet</a> -->

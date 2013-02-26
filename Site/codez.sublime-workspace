@@ -1,0 +1,977 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sni",
+				"snippet_model"
+			],
+			[
+				"use",
+				"user-account-options"
+			],
+			[
+				"insc",
+				"inscription_email"
+			],
+			[
+				"inscrip",
+				"inscription_password"
+			],
+			[
+				"userN",
+				"userNameIsFree"
+			],
+			[
+				"inscri",
+				"inscription_username"
+			],
+			[
+				"conne",
+				"connectionError"
+			],
+			[
+				"conn",
+				"connexion_password"
+			],
+			[
+				"con",
+				"connexion_username"
+			],
+			[
+				"snipp",
+				"snippet2"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"side",
+				"sidebar-wrapper"
+			],
+			[
+				"text-sh",
+				"text-shadow:   (property)"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"sea",
+				"search-in"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"backgrou",
+				"background-repeat"
+			],
+			[
+				"text-de",
+				"text-decoration"
+			],
+			[
+				"border-ra",
+				"border-radius"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"xml",
+				"xmlObj"
+			],
+			[
+				"border-rad",
+				"border-bottom-right-radius"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"backgroun",
+				"background-position"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"vertc",
+				"vertical-align"
+			],
+			[
+				"link",
+				"linklist"
+			],
+			[
+				"vertic",
+				"vertical-align"
+			],
+			[
+				"verti",
+				"vertical-align"
+			],
+			[
+				"th",
+				"thumbnails"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"section",
+				"section-general"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "www/assets/css/layout.css",
+			"settings":
+			{
+				"buffer_size": 5654,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/assets/css/style.css",
+			"settings":
+			{
+				"buffer_size": 13610,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/application/controllers/snippet.php",
+			"settings":
+			{
+				"buffer_size": 3103,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/lara/Dev/Documentation/Raccourcis clavier utiles de Sublime Text.txt",
+			"settings":
+			{
+				"buffer_size": 1614,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/application/models/category_model.php",
+			"settings":
+			{
+				"buffer_size": 809,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/assets/js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 59,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/application/models/snippet_model.php",
+			"settings":
+			{
+				"buffer_size": 1273,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/application/language/francais/general_lang.php",
+			"settings":
+			{
+				"buffer_size": 1636,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/application/libraries/Codez_Controller.php",
+			"settings":
+			{
+				"buffer_size": 1279,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/application/views/template.php",
+			"settings":
+			{
+				"buffer_size": 4175,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/application/controllers/connect.php",
+			"settings":
+			{
+				"buffer_size": 6254,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/application/models/user_model.php",
+			"settings":
+			{
+				"buffer_size": 2741,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"colo",
+				"Color picker"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 588.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/lara/.gvfs/FTP sur akaiken.o2switch.net en tant que akaiken/www/todo/inc/user.css",
+		"/home/lara/Dev/www/codez/Site/www/application/views/new_snippet_create.php",
+		"/home/lara/Dev/www/codez/Site/www/application/controllers/snippet.php",
+		"/home/lara/Bureau/url.html",
+		"/home/lara/.mozilla/firefox/mwad0hks.default/s.js",
+		"/home/lara/.mozilla/firefox/mwad0hks.default/sessionstore.js",
+		"/home/lara/Dev/www/codez/Site/www/application/views/connexion.php",
+		"/home/lara/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/lara/Dev/Documentation/Raccourcis clavier utiles de Sublime Text.txt",
+		"/home/lara/Professionnel/lettre de motiv 1.rtf",
+		"/home/lara/Dev/www/codez/Site/www/application/views/template.php",
+		"/home/lara/Dev/www/codez/Site/www/application/models/user_model.php",
+		"/home/lara/Dev/www/codez/Site/www/application/controllers/connect.php",
+		"/home/lara/Dev/www/codez/Site/www/application/config/autoload.php",
+		"/home/lara/Dev/www/codez/Site/www/application/views/new_snippet_button.php",
+		"/home/lara/Dev/www/codez/Site/www/application/views/emails/confirmation_mail.php",
+		"/home/lara/Dev/www/codez/Site/www/application/controllers/welcome.php",
+		"/home/lara/Bureau/pwytter-0.8/pwytter.py",
+		"/home/lara/Bureau/pwytter-0.8/twclient/__init__.py",
+		"/home/lara/Bureau/pwytter-0.8/twclient/simplejson/decoder.py",
+		"/home/lara/Bureau/pwytter-0.8/twclient/simplejson/scanner.py",
+		"/home/lara/Bureau/pwytter-0.8/setup.py",
+		"/home/lara/Bureau/pwytter-0.8/ez_setup.py",
+		"/home/lara/Dev/www/codez/Site/www/application/views/welcome_to_codez.php",
+		"/home/lara/.config/sublime-text-2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/home/lara/Dev/www/codez/Site/www/application/views/aside_snippets_list.php",
+		"/home/lara/Dev/www/codez/Site/www/application/controllers/admin.php",
+		"/home/lara/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/lara/Dev/www/codez/Site/www/application/views/new_snippet.php",
+		"/home/lara/Dev/www/codez/Site/www/application/controllers/test.php",
+		"/home/lara/Dev/www/codez/Site/www/application/views/confirmation.php",
+		"/home/lara/Dev/www/codez/Site/www/application/libraries/Codez_Controller.php",
+		"/home/lara/Dev/www/codez/Site/www/application/config/config.php",
+		"/home/lara/Dev/www/codez/Site/www/application/language/francais/general_lang.php",
+		"/home/lara/Dev/www/codez/Site/www/system/helpers/url_helper.php",
+		"/home/lara/Dev/www/codez/Site/www/application/controllers/connexion.php",
+		"/media/Quetzalcoatl/Informatique/Développement/www/Litii/appli/CI-Litii/application/views/templates/template_inside.php",
+		"/media/Quetzalcoatl/Informatique/Développement/www/Litii/appli/CI-Litii/application/views/bandeau_superieur.php",
+		"/home/lara/Dev/www/oblivionbytes/application/views/section-feats.php",
+		"/home/lara/Dev/www/oblivionbytes/application/views/section-skills.php",
+		"/home/lara/Dev/www/oblivionbytes/application/views/footer.php",
+		"/home/lara/.themes/Seeha (Top Panel)/gnome-shell/gnome-shell.css",
+		"/home/lara/Dev/www/codez/Site/www/assets/css/forms.css",
+		"/home/lara/Dev/www/codez/Site/www/assets/css/forms.php",
+		"/home/lara/Dev/www/codez/Site/www/assets/css/layout.css",
+		"/home/lara/Dev/www/codez/Site/www/application/libraries/rb.php",
+		"/home/lara/Dev/www/codez/Site/www/application/views/aside_welcome.php",
+		"/home/lara/Dev/www/codez/Site/www/assets/css/style.css",
+		"/media/Quetzalcoatl/Informatique/Développement/www/Litii/appli/CI-Litii/application/libraries/Public_Controller.php",
+		"/media/Quetzalcoatl/Informatique/Développement/www/Litii/appli/CI-Litii/application/libraries/Private_Controller.php",
+		"/home/lara/Dev/www/new_basilic/wp-content/themes/beyond-basics/css/author.css",
+		"/home/lara/Dev/h5bp-html5-boilerplate/index.html",
+		"/home/lara/Dev/www/codez/Site/www/.htaccess",
+		"/home/lara/Dev/h5bp-html5-boilerplate/.htaccess",
+		"/home/lara/Dev/www/codez/Site/www/application/libraries/Codez_controller.php",
+		"/home/lara/Dev/www/codez/Site/www/application/libraries/CodeZ_controller.php",
+		"/home/lara/Dev/www/codez/Site/maquettes/1snippet.html",
+		"/home/lara/Dev/www/codez/Site/www/application/controllers/CodeZ_controller.php",
+		"/home/lara/Dev/www/codez/Site/www/application/config/carabiner.php",
+		"/home/lara/Dev/www/codez/Site/www/.htaccess.new",
+		"/home/lara/Dev/www/codez/Site/www/assets/css/utils.css",
+		"/home/lara/.gvfs/FTP sur akaiken.o2switch.net en tant que akaiken/www/sphinx/wp-config.php",
+		"/home/lara/Images/Gifs/MSNBackup/content.xml",
+		"/home/lara/Dev/www/new_basilic/wp-content/themes/basics/index.php",
+		"/home/lara/Dev/www/new_basilic/wp-content/themes/beyond-basics/content.php",
+		"/home/lara/Dev/www/codez/Site/assets/css/utils.css",
+		"/home/lara/Dev/www/codez/Site/assets/css/style.css",
+		"/home/lara/Dev/www/portail/portail/application/controllers/accueil.php",
+		"/home/lara/Dev/www/codez/Logiciel/style.qss",
+		"/home/lara/Dev/www/CV/CV source/style.css",
+		"/home/lara/Dev/www/CV/CV source/cv.html",
+		"/home/lara/Dev/www/CV/CV source/cv.php",
+		"/home/lara/Dev/www/codez/Site/vues/1snippet.html",
+		"/home/lara/Dev/www/codez/Site/assets/css/layout.css",
+		"/media/Quetzalcoatl/Informatique/Développement/www/Litii/appli/ressources/skins/base.css",
+		"/home/lara/Dev/www/cv/cv.php",
+		"/media/MELPOMENE/Transferts/Dev/www/appli/ressources/skins/base.css",
+		"/home/lara/Dev/www/appli/ressources/skins/base.css",
+		"/home/lara/Dev/www/appli/ressources/skins/maracuja/css/maracuja.css",
+		"/home/lara/.config/sublime-text-2/Packages/User/Light/Smoothy+.tmTheme",
+		"/home/lara/Dev/www/blogs/index.php",
+		"/home/lara/Dev/www/blogs/css/style.css",
+		"/home/lara/Dev/www/blogs/index.html",
+		"/home/lara/Dev/www/coquecigrue/wp-content/themes/beyond-basics/css/author.css",
+		"/home/lara/Dev/www/custo/index.html",
+		"/home/lara/Dev/www/codez/Site/vues/layout.css",
+		"/home/lara/.config/sublime-text-2/Packages/User/Color Scheme - from TextMate/MultiMarkdown.tmTheme",
+		"/home/lara/Dev/www/coquecigrue/wp-content/themes/beyond-basics/home.php",
+		"/home/lara/Dev/www/coquecigrue/wp-content/themes/beyond-basics/header.php",
+		"/home/lara/Dev/www/new_basilic/wp-content/themes/beyond-basics/header.php",
+		"/home/lara/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/lara/Dev/www/new_basilic/wp-content/themes/index.php",
+		"/home/lara/Dev/www/new_basilic/wp-content/themes/coquecigrue/style.css",
+		"/home/lara/.gvfs/FTP sur akaiken.o2switch.net en tant que akaiken/www/portail/application/helpers/my_smiley_helper.php",
+		"/home/lara/.gvfs/FTP sur akaiken.o2switch.net en tant que akaiken/www/portail/assets/css/style.css",
+		"/home/lara/.gvfs/FTP sur akaiken.o2switch.net en tant que akaiken/www/portail/application/views/page.php",
+		"/home/lara/.gvfs/FTP sur akaiken.o2switch.net en tant que akaiken/www/portail/application/views/accueil.php",
+		"/home/lara/.gvfs/FTP sur akaiken.o2switch.net en tant que akaiken/www/index.php",
+		"/home/lara/Dev/www/mon_projet/config.rb",
+		"/home/lara/.gvfs/FTP sur akaiken.o2switch.net en tant que akaiken/www/portail/application/views/entete.php",
+		"/home/lara/.config/sublime-text-2/Packages/User/SVN.errors.log",
+		"/home/lara/Dev/www/new_basilic/wp-content/themes/beyond-basics/home.php",
+		"/home/lara/lanceur.sh",
+		"/home/lara/Dev/www/new/application/views/section-prowess-hcard.php",
+		"/home/lara/Dev/www/toolbox/inc/user.css",
+		"/home/lara/Bureau/test.html",
+		"/home/lara/Dev/www/new/assets/css/style.css",
+		"/home/lara/Dev/www/new/application/views/header.php",
+		"/home/lara/Dev/www/new/application/views/section-prowess.php",
+		"/home/lara/Dev/www/new/application/views/section-prowess-litii.php",
+		"/home/lara/Dev/www/new/application/views/nav.php",
+		"/home/lara/Dev/www/new/application/views/section-guilds.php",
+		"/home/lara/Dev/www/new/application/controllers/ficheperso.php",
+		"/home/lara/Dev/www/new/application/views/section-skills.php",
+		"/home/lara/Dev/www/new/application/views/footer.php",
+		"/home/lara/Dev/www/new/application/views/section-misc.php",
+		"/home/lara/Dev/www/new/.htaccess",
+		"/home/lara/Dev/www/new/application/views/template_view.php",
+		"/home/lara/Dev/www/new/application/views/link-prowess-return.php",
+		"/home/lara/Dev/www/new/application/views/credits.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/lara/Dev/www/codez/Site/www/system",
+			"/home/lara/Dev/www/new_basilic/wp-content/themes/beyond-basics",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"snippetCatNew",
+			"Cat",
+			"sess",
+			"Ctrl",
+			"join",
+			"wrap",
+			"Ctrl",
+			"inpu",
+			"texta",
+			"setupt",
+			"butto",
+			"connexio",
+			"input",
+			"form",
+			"welcom",
+			"user-acc",
+			"redire",
+			"function redirect",
+			"();\n",
+			":not",
+			"header",
+			"butt",
+			"ligneFor",
+			"conne",
+			"asi",
+			"sideba",
+			"header",
+			"paddin",
+			"img",
+			"verti",
+			"vertic",
+			"welco",
+			"fav",
+			"justi",
+			"site-nav",
+			"banner",
+			"search-in",
+			"visuall",
+			"search",
+			"post",
+			"article",
+			"entry",
+			"article",
+			"padding:0",
+			"padding: 0",
+			"img ",
+			"img",
+			"get_sidebar",
+			"category",
+			"no des",
+			"No description for category",
+			"Pas encore de description",
+			"compe",
+			"	\n",
+			";*/\n",
+			".ir",
+			"transparent",
+			"font-size",
+			"clip",
+			"image",
+			"block",
+			"sidebar",
+			"leaf",
+			"search-in",
+			"entry-ti",
+			"entry-t",
+			"entry",
+			"logo",
+			"section,",
+			"img",
+			"align",
+			"align-",
+			"align-m",
+			"align",
+			"img",
+			"search-i",
+			"searc",
+			"sidebar",
+			"widget",
+			"section.wi",
+			"#sideb",
+			"sideb",
+			"navigat",
+			"ctrl+k",
+			"side",
+			"auto_com",
+			"auto",
+			"detect_slow_plugins",
+			"labs",
+			"basili",
+			"linear",
+			"background",
+			"nd-image: -moz-radial-gradient(center center , ellipse , rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 50%);\nbackground-repeat: no-repeat;\nbackground-position: center;*/",
+			"/*background-image: -moz-radial-gradient(center center , ellipse , rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 50%);\nbackground-repeat: no-repeat;\nbackground-position: center;*/",
+			"green",
+			"site-na",
+			"banner",
+			"header",
+			"site-na",
+			"	\n",
+			"=pos",
+			"=art",
+			"entry ul",
+			"entry",
+			"naviga",
+			"navig",
+			"moz-box-sizing:content-box;\n	-webkit-box-sizing:content-box;\n	box",
+			"box-si",
+			"box-s",
+			".singular",
+			"float:none;\n	display: inline-block;\n	verti",
+			":after",
+			"::",
+			"box-sha",
+			"border-ra",
+			"search",
+			"seatr",
+			"high-deeds",
+			"                ",
+			"high"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"background",
+			"prowess"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 10,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "www/assets/css/layout.css",
+					"settings":
+					{
+						"buffer_size": 5654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								857,
+								857
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 828.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/assets/css/style.css",
+					"settings":
+					{
+						"buffer_size": 13610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9726,
+								9726
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4685.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/application/controllers/snippet.php",
+					"settings":
+					{
+						"buffer_size": 3103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2362,
+								2362
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1026.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/lara/Dev/Documentation/Raccourcis clavier utiles de Sublime Text.txt",
+					"settings":
+					{
+						"buffer_size": 1614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1410,
+								1410
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "www/application/models/category_model.php",
+					"settings":
+					{
+						"buffer_size": 809,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								719,
+								719
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "www/assets/js/scripts.js",
+					"settings":
+					{
+						"buffer_size": 59,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "www/application/models/snippet_model.php",
+					"settings":
+					{
+						"buffer_size": 1273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								812,
+								812
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "www/application/language/francais/general_lang.php",
+					"settings":
+					{
+						"buffer_size": 1636,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1572,
+								1572
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "www/application/libraries/Codez_Controller.php",
+					"settings":
+					{
+						"buffer_size": 1279,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								818,
+								818
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "www/application/views/template.php",
+					"settings":
+					{
+						"buffer_size": 4175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2657,
+								2657
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 570.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "www/application/controllers/connect.php",
+					"settings":
+					{
+						"buffer_size": 6254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3118,
+								3118
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2850.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "www/application/models/user_model.php",
+					"settings":
+					{
+						"buffer_size": 2741,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2706,
+								2706
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1580.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true
+}

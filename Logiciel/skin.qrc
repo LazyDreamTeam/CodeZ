@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/skin">
+        <file>Images/bouttonRecherche.png</file>
+        <file>Images/champRecherche.png</file>
+        <file>Images/logo.png</file>
+        <file>Images/puceListe.png</file>
+        <file>Images/voletNoir.jpg</file>
+        <file>Images/bouttonSnippet.png</file>
+        <file>Images/icone.png</file>
+        <file>Images/bouttonPartager.png</file>
+        <file>style.qss</file>
+        <file>Images/arrow_down.png</file>
+        <file>Images/arrow_up.png</file>
+        <file>Images/arrow_left.png</file>
+        <file>Images/arrow_right.png</file>
+    </qresource>
+</RCC>

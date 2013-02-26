@@ -1,0 +1,1 @@
+<p>Un e-mail vous a été envoyé avec un lien de confirmation, hop hop hop, foncez !</p>

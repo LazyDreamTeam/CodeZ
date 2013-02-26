@@ -1,0 +1,31 @@
+Cette feuille existe dans l'unique but de s'organiser  simplement sur le projet et signaler les bugs/suggestions déjà proposés.
+
+
+
+========================
+==== DERNIER COMMIT ====
+========================
+
+
+=======================
+==== BUGS VALIDES  ====
+=======================
+
+
+=====================================
+==== ECARTS FONCTIONNELS VALIDES ====
+=====================================
+
+
+==============================
+==== SUGGESTIONS VALIDEES ====
+==============================
+Pas mal, presque tous les problèmes que j’avais remonté ont été corrigés. :D Par contre il reste quelques petits (enfin ça dépend lesquels) détails :
+- Dans la fenêtre de gestion des langages, parfois un espace est placé avant les « : », parfois après. Alors que dans la fenêtre « A propos », il y a un espace avant et après.
+- Si j’essaie de créer une catégorie vide, « Nom obligatoire… » apparaît. Mais au clic dans la zone de saisie il reste là. L’enlever automatiquement éviterait à l’utilisateur un Ctrl+A puis Suppr.
+- Le bug de renommage de snippet est toujours là. Si je renomme avec une chaîne vide un snippet, son contenu est effacé et irrécupérable même si je le renomme à nouveau correctement.
+- On ne peut pas diminuer la taille de la fenêtre. Seulement l’augmenter est possible (puis diminuer jusqu’à la taille « par défaut » lors de l’ouverture).
+
+===================
+==== A TRAITER ====
+===================

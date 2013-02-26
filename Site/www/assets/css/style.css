@@ -1,0 +1,473 @@
+/** polices **/
+
+/* sans-serif */
+@font-face {
+     font-family: 'DejaVuSans';
+    src: url('../fonts/DejaVuSans-webfont.eot');
+    src: url('../fonts/DejaVuSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSans-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSans-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSans-webfont.svg#DejaVuSansBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVuSans';
+    src: url('../fonts/DejaVuSans-Oblique-webfont.eot');
+    src: url('../fonts/DejaVuSans-Oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSans-Oblique-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSans-Oblique-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSans-Oblique-webfont.svg#DejaVuSansOblique') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DejaVuSans';
+    src: url('../fonts/DejaVuSans-Bold-webfont.eot');
+    src: url('../fonts/DejaVuSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSans-Bold-webfont.svg#DejaVuSansBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVuSans';
+    src: url('../fonts/DejaVuSans-BoldOblique-webfont.eot');
+    src: url('../fonts/DejaVuSans-BoldOblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSans-BoldOblique-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSans-BoldOblique-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSans-BoldOblique-webfont.svg#DejaVuSansBoldOblique') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*sans serif condensed */
+@font-face {
+     font-family: 'DejaVuSansCondensed';
+    src: url('../fonts/DejaVuSansCondensed-webfont.eot');
+    src: url('../fonts/DejaVuSansCondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSansCondensed-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSansCondensed-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSansCondensed-webfont.svg#DejaVuSansCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVuSansCondensed';
+    src: url('../fonts/DejaVuSansCondensed-Oblique-webfont.eot');
+    src: url('../fonts/DejaVuSansCondensed-Oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSansCondensed-Oblique-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSansCondensed-Oblique-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSansCondensed-Oblique-webfont.svg#DejaVuSansCondensedOblique') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DejaVuSansCondensed';
+    src: url('../fonts/DejaVuSansCondensed-Bold-webfont.eot');
+    src: url('../fonts/DejaVuSansCondensed-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSansCondensed-Bold-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSansCondensed-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSansCondensed-Bold-webfont.svg#DejaVuSansCondensedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVuSansCondensed';
+    src: url('../fonts/DejaVuSansCondensed-BoldOblique-webfont.eot');
+    src: url('../fonts/DejaVuSansCondensed-BoldOblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSansCondensed-BoldOblique-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSansCondensed-BoldOblique-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSansCondensed-BoldOblique-webfont.svg#DejaVuSansCnBdOb') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* serif */
+@font-face {
+     font-family: 'DejaVuSerif';
+    src: url('../fonts/DejaVuSerif-webfont.eot');
+    src: url('../fonts/DejaVuSerif-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSerif-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSerif-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSerif-webfont.svg#DejaVuSerifBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVuSerif';
+    src: url('../fonts/DejaVuSerif-Italic-webfont.eot');
+    src: url('../fonts/DejaVuSerif-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSerif-Italic-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSerif-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSerif-Italic-webfont.svg#DejaVuSerifItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DejaVuSerif';
+    src: url('../fonts/DejaVuSerif-Bold-webfont.eot');
+    src: url('../fonts/DejaVuSerif-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSerif-Bold-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSerif-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSerif-Bold-webfont.svg#DejaVuSerifBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVuSerif';
+    src: url('../fonts/DejaVuSerif-BoldItalic-webfont.eot');
+    src: url('../fonts/DejaVuSerif-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSerif-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSerif-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSerif-BoldItalic-webfont.svg#DejaVuSerifBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* serif condensed */
+@font-face {
+     font-family: 'DejaVuSerifCondensed';
+    src: url('../fonts/DejaVuSerifCondensed-webfont.eot');
+    src: url('../fonts/DejaVuSerifCondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSerifCondensed-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSerifCondensed-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSerifCondensed.svg#DejaVuSerifCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVuSerifCondensed';
+    src: url('../fonts/DejaVuSerifCondensed-Italic-webfont.eot');
+    src: url('../fonts/DejaVuSerifCondensed-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSerifCondensed-Italic-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSerifCondensed-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSerifCondensed-Italic-webfont.svg#DejaVuSerifCondensed') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DejaVuSerifCondensed';
+    src: url('../fonts/DejaVuSerifCondensed-Bold-webfont.eot');
+    src: url('../fonts/DejaVuSerifCondensed-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSerifCondensed-Bold-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSerifCondensed-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSerifCondensed-Bold-webfont.svg#DejaVuSerifCondensedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVuSerifCondensed';
+    src: url('../fonts/DejaVuSerifCondensed-BoldItalic-webfont.eot');
+    src: url('../fonts/DejaVuSerifCondensed-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSerifCondensed-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSerifCondensed-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSerifCondensed-BoldItalic-webfont.svg#DejaVuSerifCnBdIt') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	/* minimum syndical, correspond à 14px sur les 
+	navigateurs dont on n'a pas changé la taille de police par défaut */
+	font-size: 1.4em; 
+	font-family : DejaVuSans, sans-serif;
+	background-color: rgb(258,248,248);
+    color: #222;
+}
+
+/** générique **/
+
+input, select, textarea {
+    font-family : DejaVuSans, sans-serif;
+}
+
+a {
+    color: rgb(52,133,255);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(82,163,255);
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+a[rel=external]:after {
+    content:'';
+    height:16px;
+    width: 16px;
+    background-image:url('../img/spritesheet.png');
+    background-repeat:no-repeat;
+    background-position: -80px -30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:3px;
+}
+
+/* aspect de bouton */
+.button,
+.button:visited,
+.button :visited {
+	background-color : rgb(52,133,255);
+	border-radius: 4px;
+	color: rgb(255,255,255);
+    text-shadow: 1px 1px rgba(0,0,0,.5);
+	text-align: center;
+	text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+	outline:none;
+	background-color:rgba(87,154,255,1);
+	-moz-box-shadow:inset 0px 0px 1px  rgba(230,240,255,1);
+	-webkit-box-shadow:inset 0px 0px 1px rgba(230,240,255,1);
+	box-shadow:inset 0px 0px 1px  rgba(230,240,255,1);
+    text-decoration: none;
+}
+
+.button.alt {
+	background-color: rgb(194,43,43);
+}
+
+.button.alt:hover,
+.button.alt:focus {
+	background-color:rgb(204,53,53);
+}
+
+.button.enhanced {
+	
+}
+
+
+/** form **/
+
+input[type=text],
+input[type=password],
+input[type=email],
+textarea {
+    border-color: rgba(0,0,0,1);
+}
+
+.input-error {
+    border-color : rgb(200,50,50);
+    background:rgb(255,240,240);
+    box-shadow: none;
+}
+
+
+/* erreurs */
+
+.error {
+    color: rgb(150,50,50);
+    font-style: italic;
+    /*text-align: right;*/
+}
+
+
+/** =SIDEBAR **/
+
+.sidebar {
+	background-color:rgb(25,25,25);
+	color:rgb(255,255,255);
+}
+
+
+.sidebar .sidebar-content > header h1 {
+	font-family: DejaVuSerif, serif;
+	/*background:url('../img/spritesheet.png');
+	background-position: 0 0;
+	background-repeat: no-repeat;*/
+} 
+
+/** user-account */
+
+.user-account .user-account-options ul {
+    background: rgb(255,255,255);
+    color : rgb(0,0,0);
+    box-shadow: 0 0 2px rgb(0,0,0);
+}
+
+.user-account .user-account-options a {
+    color : rgb(0,0,0);
+}
+
+/** search **/
+
+.search {
+	background-color: rgb(255,255,255);
+	border-radius : 4px;
+}
+
+.search input[type=submit] {
+	background-color: rgb(15,15,15);
+	background-image: url('../img/spritesheet.png');
+	background-repeat: no-repeat;
+	background-position: -100px 12px;
+	color: transparent;
+	/* déclarations séparées pour Opera, à cause du inherit */
+	border-bottom-right-radius: inherit;
+	border-bottom-left-radius: 0;
+	border-top-right-radius: inherit;
+	border-top-left-radius: 0;
+}
+
+.snippets-list {}
+
+
+.snippets-list h1 {
+	text-transform: uppercase;
+	font-size: 1em;
+	margin-top: 1.5em;
+	margin-bottom: .5em;
+}
+
+.snippets-list ul li {
+	list-style-type: none;
+}
+
+.snippets-list ul ul li:before {
+	content: '';
+	height: 11px;
+	width:11px;
+	display:inline-block;
+	background-image: url('../img/spritesheet.png');
+	background-repeat: no-repeat;
+	background-position: 0 -30px;
+		/*list-style-image: url('../img/puce.png');*/
+	/*list-style-position: inside;*/
+}
+
+.snippets-list a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.snippets-list a:hover,
+.snippets-list a:focus {
+	text-decoration: underline;
+	outline: none;
+}
+
+.sidebar footer {
+    font-size:.8em;
+}
+
+
+/** MAIN **/
+
+/** page de bienvenue **/
+
+.welcome h2 {
+	font-family: DejaVuSansCondensed, sans-serif;
+    color: #3d3d3d;
+    font-size:1.3em;
+	/*font-weight:normal;*/
+}
+
+.welcome .main p span.norris {
+    font-size:.8em;
+}
+
+.welcome .main p span.strike {
+    text-decoration: line-through;
+}
+
+.welcome .download-link {
+    position: relative;
+}
+
+.welcome .download-link:before {
+    content:'';
+    height:16px;
+    width:16px;
+    background-image:url('../img/spritesheet.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:3px;
+}
+
+.welcome .download-link.os-macos:before {
+    background-position: -20px -30px;
+}
+.welcome .download-link.os-gnulinux:before {
+    background-position: -40px -30px;
+}
+.welcome .download-link.os-windows:before {
+    background-position: -60px -30px;
+}
+
+.welcome .download-link span {
+   position:absolute;
+   left:-99999px;
+   display:block;
+   background-color:rgb(25,25,25);
+   padding: 4px;
+   border-radius: 4px;
+}
+
+.welcome .download-link:hover span,
+.welcome .download-link:focus span {
+    left:4px;
+    right:4px;
+}
+
+
+.main > h1,
+.main article > h1 {
+	font-family: DejaVuSerifCondensed, serif;
+	color: rgb(52,133,255);
+	font-weight:normal;
+}
+
+.main .snippet .snippet-actions .download,
+.main .snippet .snippet-actions .report {
+	color: #fff;
+}
+
+.main .snippet .snippet-actions .download {
+	background: rgb(52,133,255);
+}
+.main .snippet .snippet-actions .report {
+	background: rgb(194,43,43);
+}
+
+.main .snippet .snippet-tag {
+	background-color: rgb(255,255,255);
+	border-radius: 4px;
+}
+
+.main .snippet .snippet-tag:before {
+	background-image: url('../img/spritesheet.png');
+	background-position: -140px 0px;
+}
+
+.main .snippet .snippet-author a {
+	color: rgb(0,106,174);
+}
+
+
+/** =COMMENTS **/
+.main .snippet .comments .comment-author a {
+	color: rgb(0,106,174);
+}
+
+/** =CONNEXION **/
+
+/*body.connexion input[type=text],
+body.connexion input[type=password],
+body.connexion input[type=email] {
+    border-color: rgba(0,0,0,1);
+}*/

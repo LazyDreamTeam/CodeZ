@@ -1,0 +1,43 @@
+Voila une petite fiche de récap des infos intéressantes à connaitre:
+
+Contacts : 
+
+idleman
+Portable : 06 81 12 97 53
+Mail : idleman@idleman.fr 
+
+
+
+akaiken
+Mail : akaiken@lamecarlate.net
+
+
+yosko
+Mail : yosko@yosko.net
+
+
+BoboTiG
+Mail : bobotig@gmail.com
+
+
+kload
+Mail : kload@kload.fr 
+
+
+
+Infos : 
+SVN : 
+
+http://hades.idleman.fr/svn/codez
+
+RSS du projet : 
+
+http://hades.idleman.fr/Dizplay/action/svn2Rss?project=codez
+
+Forum :
+
+http://hades.idleman.fr/CodeZ/forum
+
+Site de production : 
+
+http://hades.idleman.fr/CodeZ/ (bientôt relayé par snippet.idleman.fr) 

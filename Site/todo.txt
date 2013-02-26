@@ -1,0 +1,70 @@
+Cette feuille existe dans l'unique but de s'organiser  simplement sur le projet et signaler les bugs/suggestions déjà proposés.
+
+
+
+========================
+==== DERNIER COMMIT ====
+========================
+
+
+=======================
+==== BUGS VALIDES  ====
+=======================
+
+
+=====================================
+==== ECARTS FONCTIONNELS VALIDES ====
+=====================================
+
+
+==============================
+==== SUGGESTIONS VALIDEES ====
+==============================
+
+
+===================
+==== A TRAITER ====
+===================
+
+- Pour chacune des entités de la base, prendre l'habitude d'integrer un champs date creation et etat qu'on ai un champ d'action sur toutes les entités
+
+-A quoi correspondent les champs user type  et validation key (confirmation email?) dans la base? Le champs active pourrait être renommé en state afin d'avoir plus de possibilités qu'actif/inactif 
+
+- j'ai une erreur 
+
+Message: mail() [function.mail]: SMTP server response: 554 5.7.1 <idleman@idleman.fr>: Relay access denied
+
+sur mon serveur, mais j'imgaine que j'ai oublié de configurer un truc (faudra qme dire quoi faire pour la prod) du coups je ne peux pas tester l'inscription jusqu'au bout, j'ai modifié l'etat active afin de pouvoir continuer les tests
+
+A la connexion, j'ai une erreur remontée par le framework visiblement: 
+
+An Error Was Encountered
+
+Unable to load the requested file: aside_snippets_list.php
+
+Mais quand je revient en arriere il semblerais que je suis bien en session
+
+Pour les couleurs du texte et des bordures de champs ça serait bien d'eviter le pur #000 je trouve que ça abime pas mal les yeux, ça serait sympa de remplacer par un #222222 ou autres "noir clairs" 
+
+L'espace est un peu enorme entre les <label> des champs et les champs eux même non?
+
+Est il possible de dégager le "les autres sont de idleman" étant donné que je ne fais que modifier la plupart du temps des icones existantes dispo en libre service. Pour les icones de Yusuke Kamiyamane (d'ailleurs bien sympa) je les mettrait dans une rubrique a part (genre "Credits ety remerciements") avec un lien dans le footer vers cette rubrique
+
+Les constantes type expediteur du mails sont a mettre dans le fichier constantes
+
+
+Je me permet de répondre a quelques un de tes commentaires :
+
+Pour ce qui est des erreurs remontées par SQL (genre inscirption de l'utilisateur) ça serait bien que ça reste vague par rapport a l'utilisateur (genre : "Une erreur est survenue de notre côté, désolé on est vraiment des pipes mais on vas s'arranger, l'équipe a été mise au courant mais vous pouvez nous apporter des précisions en nous mailant a "cette adresse"") et en parrallèle que ça nous envoie un mail avec la requete, le mysql error, la date et eventuellement l'utilisateur loggué (pour les ations autres que l'inscription evidemment).
+
+Ca me parait bien de revenir directement à la home apres validation de l'inscription, evitons les chichis nos utilisateurs sont pour la pluparts des developpeurs avertis inutile de tourner autour du pot (et ça nous filera moins de boulot) si vraiment ça venait a manquer dans le futur, nous pourrions toujours nous rattraper sur un autre lot, mais je doute que ce soit nécessaire.
+
+La méthode "checkUsername" étant liée uniquement aux utilisateurs elle pourait être intégrée au model user non ? 
+
+Appeller cette méthode en AJAX? Why not mais ça n'apporte pas grand chose a l'application, ça peut te rpendre un peu de temps et charger inutilement la partie client, personnelement je suis pour l'ajax quand c'est indispensable ou quand ça peux améliorer de manière flagrante le confort de la navigation. Cette verification pouvant tomber en erreur de manière occasionnelle je ne pense pas qu'il soit nécessaire de se concentrer techniquement dessus.
+
+Déconnexion : faut vraiment que j'explique =D ? Réponse : non :p
+
+Je n'ai malheureusement pu tester que l'authentification et une partie de l'inscription, j'ai cru comprendre que tu était allé plus loin mais les autres parties ne sont peux être pas encore accessible au modste visiteur que je suis ^^ tiens moi au courant si je dois faire une manip particulière pour aller plus loin.
+
+Sinon rien a dire, ça fonctionne sur chrome, ie et firefox de façon quasi identique, c'est relativement leger et ça reste simple :) . Pour le code je ne suis pas familier de codeigniter mais ça a l'air propre, ça reste tout a fait comprehensible et c'est bien commenté donc RAS. RedBean pour l'ORM m'a l'air tout aussi simple et accessible aux vue du model user ça me plait.
