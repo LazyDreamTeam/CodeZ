@@ -9,7 +9,7 @@ Snippets are store using JSON files, in a format close to CodeX's.
 
 The PHP website is a project of a syncrhonizing and publishing tool to help centralize and share snippets.
 
-**Note:** this project is currently not maintained as each of us moved to other project, although someday we might
+**Note:** this project is currently not maintained as each of us moved to other projects, although someday we might
 get back to work on it.
 In the meantime, feel free to fork it, work on it and even send some pull request. We might integrate it.
 
@@ -23,4 +23,5 @@ CodeZ also include libraries and work by others. Please respect their licence to
 * Qt 4.7 library
 * DejaVuSans fonts
 * CodeIgniter PHP framework
+* 
 If you notice anything missing in the above list, please let us know.
